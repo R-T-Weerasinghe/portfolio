@@ -3,7 +3,7 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `An AI enthusiast and problem solver with a passion for creating impactful solutions through technology. I blend leadership, adaptability, and a keen eye for detail to deliver innovative projects that prioritize user experience. With a strong foundation in both frontend and backend development, I strive to bridge the gap between ideas and execution, turning complex challenges into user-friendly applications.`;
+export const HERO_CONTENT = `I am an AI enthusiast and a problem solver with a passion for creating impactful solutions through technology. I blend leadership, adaptability, and a keen eye for detail to deliver innovative projects that prioritize user experience. With a strong foundation in both frontend and backend development, I strive to bridge the gap between ideas and execution, turning complex challenges into user-friendly applications.`;
 
 export const ABOUT_TEXT = `I'm an undergraduate pursuing an honours degree in Artificial Intelligence, where I’m building a strong foundation theoriticial and practical uses of AI. At the same time I have fueled myself with solid knowledge in both frontend and backend development. My experience spans frameworks like Angular and React, as well as backend technologies such as FastAPI and Flask. I also have hands-on experience with databases like MongoDB and MySQL and am proficient in deploying applications using AWS and Docker.
 I am also horned with exceptional AI skills with a strong foundation in fundamentals and spanning to more advanced topics. 
@@ -79,4 +79,5 @@ export const CONTACT = {
   email: "ravindutharuka2001@gmail.com",
   linkedin: "https://www.linkedin.com/in/rtweera/",
   github: "https://github.com/R-T-Weerasinghe",
+  medium: "https://medium.com/@rtweera",
 };
