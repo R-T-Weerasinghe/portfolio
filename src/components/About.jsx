@@ -1,5 +1,5 @@
 import about from "../assets/about.jpg";
-import { ABOUT_TEXT } from "../constants";
+import { ABOUT_TEXT_SOFT, ABOUT_TEXT_TECH } from "../constants";
 
 const About = () => {
   return (
@@ -17,8 +17,13 @@ const About = () => {
         </div> */}
         <div className="w-full lg:w-full">
           <div className="flex items-center justify-center">
-            <p className="my-2 max-w-4xl py-6 text-justify font-light leading-loose">
-              {ABOUT_TEXT}
+            <p className="mb-2 max-w-4xl pb-6 text-justify font-light leading-7">
+              {ABOUT_TEXT_TECH}
+            </p>
+          </div>
+          <div className="flex items-center justify-center">
+            <p className="my-2 max-w-4xl py-6 text-justify font-light leading-7">
+              {ABOUT_TEXT_SOFT}
             </p>
           </div>
         </div>

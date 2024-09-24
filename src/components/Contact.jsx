@@ -37,7 +37,7 @@ const Contact = () => {
             {CONTACT.location}
           </a>
         </p>
-        <br />
+        {/* <br />
         <p className="my-4">
           <a
             href={CONTACT.linkedin}
@@ -57,7 +57,7 @@ const Contact = () => {
           >
             GitHub
           </a>
-        </p>
+        </p> */}
       </div>
     </div>
   );

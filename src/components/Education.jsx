@@ -7,10 +7,10 @@ const Education = () => {
       <div>
         {EXPERIENCES.map((experience, index) => (
           <div key={index} className="mb-8 flex flex-wrap lg:justify-center">
-            <div className="w-full lg:w-1/4 lg:text-right lg:pr-20">
+            <div className="w-full lg:w-1/5 lg:text-right p-5 pb-2 lg:pr-20">
               <p className="mb-2 text-sm text-neutral-400">{experience.year}</p>
             </div>
-            <div className="w-full max-w-xl lg:w-3/4 pb-5">
+            <div className="w-full max-w-xl lg:w-4/5 p-5  border-neutral-800 border-2 rounded-xl">
               <h6 className="mb-2 font-semibold">
                 { experience.role } - {" "}
                 <span className="text-sm text-purple-100">

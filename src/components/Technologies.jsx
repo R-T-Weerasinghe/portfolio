@@ -4,7 +4,7 @@ import { BiLogoPython, BiLogoAws } from "react-icons/bi";
 
 const Technologies = () => {
   return (
-    <div className="border-b border-neutral-900 pb-24">
+    <div className="border-b border-neutral-900 pb-24 max-w-4xl m-auto">
       <h2 className="my-20 text-center text-4xl">
         <span className="font-thin">My</span>
         &nbsp;

@@ -3,19 +3,18 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am an AI enthusiast and a problem solver with a passion for creating impactful solutions through technology. I blend leadership, adaptability, and a keen eye for detail to deliver innovative projects that prioritize user experience. With a strong foundation in both frontend and backend development, I strive to bridge the gap between ideas and execution, turning complex challenges into user-friendly applications.`;
+export const HERO_CONTENT = `I am an AI enthusiast and a problem solver with a passion for creating impactful solutions through technology. I strive to bridge the gap between ideas and execution, turning complex challenges into user-friendly applications.`;
 
-export const ABOUT_TEXT = `I'm an undergraduate pursuing an honours degree in Artificial Intelligence, where I’m building a strong foundation theoriticial and practical uses of AI. At the same time I have fueled myself with solid knowledge in both frontend and backend development. My experience spans frameworks like Angular and React, as well as backend technologies such as FastAPI and Flask. I also have hands-on experience with databases like MongoDB and MySQL and am proficient in deploying applications using AWS and Docker.
-I am also horned with exceptional AI skills with a strong foundation in fundamentals and spanning to more advanced topics. 
+export const ABOUT_TEXT_TECH = `I am an undergraduate pursuing an honours degree in Artificial Intelligence, where I’m building a strong theoriticial knowledge as well as a solid practical experience of using AI. Beyond the AI skills, I have fueled myself with frontend, backend, database, and cloud skills.`;
 
-Beyond my technical skills, I’m driven by a commitment to leadership, teamwork, and problem-solving. I approach every challenge with adaptability and a user-first mindset, always considering multiple perspectives to find the best solution. My goal is to leverage my skills in AI and data science to create technology that not only solves problems but also improves lives.`;
+export const ABOUT_TEXT_SOFT= `I am a person who is driven by a commitment to leadership, teamwork, and problem-solving. I approach every challenge with adaptability and a user-first mindset, always considering multiple perspectives to find the best solution. My goal is to leverage my skills in AI and data science to create technology that not only solves problems but also improves lives.`;
 
 export const EXPERIENCES = [
   {
     year: "2022 - Present",
     role: "BSc. (Hons) in Artificial Intelligence",
     company: "University of Moratuwa",
-    description: `3rd year undergraduate at University of Moratuwa, studying as the first AI batch at Moratuwa. Got a solid computer science and general AI concepts foundation in the first two years and currently studying more advanced AI concepts and technologies.`,
+    description: `3rd year undergraduate at University of Moratuwa, studying as the first AI batch at Moratuwa. Enriched with solid foundational skills in both AI and computing. Moving towards more advanced AI concepts and technologies.`,
     technologies: ["Neural Networks", "Machine Learning", "Expert Systems", "Multi Agent Systems", "Computational Statistics"],
   },
   {
