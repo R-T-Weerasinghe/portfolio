@@ -1,7 +1,9 @@
 import project1 from "../assets/projects/sentiview-1.png";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
+import project2 from "../assets/projects/autochess-1.jpg";
+import project3 from "../assets/projects/clickbait-1.jpg";
 import project4 from "../assets/projects/project-4.jpg";
+import project5 from "../assets/projects/project-4.jpg";
+import project6 from "../assets/projects/portfolio-2.jpg";
 
 export const HERO_CONTENT = `I am an AI enthusiast and a problem solver with a passion for creating impactful solutions through technology. I strive to bridge the gap between ideas and execution, turning complex challenges into user-friendly applications.`;
 
@@ -49,25 +51,32 @@ export const PROJECTS = [
     technologies: ["Angular", "PrimeNG", "FastAPI", "Pandas", "GeminiAPI", "MongoDB", "AWS"],
   },
   {
-    title: "Task Management App",
+    title: "Autochess",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "Fully autonomous chess playing machine with a physical chess board. The machine is able to move chess pieces by itself, like magic!",
+    technologies: ["C++", "Arduino", "ESP32", "Fusion360", "KiCAD", "Blender"],
+  },
+  {
+    title: "Clickbait Titles Identification",
+    image: project3,
+    description:
+      "AI system to identify clickbait headings of posts/videos using numerous supervised and unsupervised AI techniques.",
+    technologies: ["SciKit-Learn", "GeminiAPI", "CNN", "Keras", "TensorFlow", "KNN"],
+  },
+  {
+    title: "ABMV - Multi Agent System",
+    image: project4,
+    description:
+    "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
+    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
   },
   {
     title: "Portfolio Website",
-    image: project3,
+    image: project6,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
-  },
-  {
-    title: "Blogging Platform",
-    image: project4,
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+    technologies: ["HTML", "CSS", "React", "TailwindCSS"],
   },
 ];
 
