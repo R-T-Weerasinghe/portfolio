@@ -1,4 +1,4 @@
-import project1 from "../assets/projects/project-1.jpg";
+import project1 from "../assets/projects/sentiview-1.png";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
@@ -42,11 +42,11 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "SentiView",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "A fully functional email analysis webapp for customer care emails with features like sentiment analysis, summarizing, visualizing, and agent evaluation.",
+    technologies: ["Angular", "PrimeNG", "FastAPI", "Pandas", "GeminiAPI", "MongoDB", "AWS"],
   },
   {
     title: "Task Management App",

@@ -1,9 +1,17 @@
 import { PROJECTS } from "../constants";
+import ProjectCard from "./ProjectCard";
 
 const Projects = () => {
   return (
-    <>  </>
-  )
+    <div className="border-b border-neutral-900 pb-4">
+      <h1 className="my-20 text-center text-4xl">Projects</h1>
+      <div className="flex flex-wrap justify-center">
+        {PROJECTS.map((project, index) => (
+          <ProjectCard project={project} key={index}/>
+        ))}
+      </div>
+    </div>
+  );
 
   return (
     <div className="border-b border-neutral-900 pb-4">
@@ -21,9 +29,7 @@ const Projects = () => {
               />
             </div>
             <div className="w-full max-w-xl lg:w-3/4">
-              <h6 className="mb-2 font-semibold">
-                {project.title}
-              </h6>
+              <h6 className="mb-2 font-semibold">{project.title}</h6>
               <p className="text-sm text-neutral-400">{project.description}</p>
               {project.technologies.map((tech, index) => (
                 <span
