@@ -1,15 +1,15 @@
-import project1 from "../assets/projects/sentiview-1.png";
+import project1 from "../assets/projects/sentiview-1.jpg";
 import project2 from "../assets/projects/autochess-1.jpg";
 import project3 from "../assets/projects/clickbait-1.jpg";
-import project4 from "../assets/projects/project-4.jpg";
-import project5 from "../assets/projects/project-4.jpg";
+import project4 from "../assets/projects/mas-2.jpg";
+import project5 from "../assets/projects/badminton-1.jpg";
 import project6 from "../assets/projects/portfolio-2.jpg";
 
 export const HERO_CONTENT = `I am an AI enthusiast and a problem solver with a passion for creating impactful solutions through technology. I strive to bridge the gap between ideas and execution, turning complex challenges into user-friendly applications.`;
 
 export const ABOUT_TEXT_TECH = `I am an undergraduate pursuing an honours degree in Artificial Intelligence, where I’m building a strong theoriticial knowledge as well as a solid practical experience of using AI. Beyond the AI skills, I have fueled myself with frontend, backend, database, and cloud skills.`;
 
-export const ABOUT_TEXT_SOFT= `I am a person who is driven by a commitment to leadership, teamwork, and problem-solving. I approach every challenge with adaptability and a user-first mindset, always considering multiple perspectives to find the best solution. My goal is to leverage my skills in AI and data science to create technology that not only solves problems but also improves lives.`;
+export const ABOUT_TEXT_SOFT = `I am a person who is driven by a commitment to leadership, teamwork, and problem-solving. I approach every challenge with adaptability and a user-first mindset, always considering multiple perspectives to find the best solution. My goal is to leverage my skills in AI and data science to create technology that not only solves problems but also improves lives.`;
 
 export const EXPERIENCES = [
   {
@@ -17,21 +17,39 @@ export const EXPERIENCES = [
     role: "BSc. (Hons) in Artificial Intelligence",
     company: "University of Moratuwa",
     description: `3rd year undergraduate at University of Moratuwa, studying as the first AI batch at Moratuwa. Enriched with solid foundational skills in both AI and computing. Moving towards more advanced AI concepts and technologies.`,
-    technologies: ["Neural Networks", "Machine Learning", "Expert Systems", "Multi Agent Systems", "Computational Statistics"],
+    technologies: [
+      "Neural Networks",
+      "Machine Learning",
+      "Expert Systems",
+      "Multi Agent Systems",
+      "Computational Statistics",
+    ],
   },
   {
     year: "2021 - Present",
     role: "Professional Graduate Diploma",
     company: "British Computer Society",
     description: `Completed the certificate and diploma levels of the BCS Professional Graduate Diploma in IT. Currently studying the final level.`,
-    technologies: ["Advanced DBMS", "Web Application Development", "Big Data Management", "Programming Paradigms"],
+    technologies: [
+      "Advanced DBMS",
+      "Web Application Development",
+      "Big Data Management",
+      "Programming Paradigms",
+    ],
   },
   {
     year: "2021 - 2022",
     role: "Certificate on Cybersecurity & Digital Forensics",
     company: "SLIIT",
     description: `This certificate programme covered a wide range of topics in cybersecurity and digital forensics, including network security, cryptography, vulnerability analysis, ethical hacking, and windows forensics.`,
-    technologies: ["OWASP", "Nmap", "Nessus", "Metasploit", "Wireshark", "Autopsy"],
+    technologies: [
+      "OWASP",
+      "Nmap",
+      "Nessus",
+      "Metasploit",
+      "Wireshark",
+      "Autopsy",
+    ],
   },
   {
     year: "2017 - 2020",
@@ -48,7 +66,15 @@ export const PROJECTS = [
     image: project1,
     description:
       "A fully functional email analysis webapp for customer care emails with features like sentiment analysis, summarizing, visualizing, and agent evaluation.",
-    technologies: ["Angular", "PrimeNG", "FastAPI", "Pandas", "GeminiAPI", "MongoDB", "AWS"],
+    technologies: [
+      "Angular",
+      "PrimeNG",
+      "FastAPI",
+      "Pandas",
+      "GeminiAPI",
+      "MongoDB",
+      "AWS",
+    ],
   },
   {
     title: "Autochess",
@@ -62,14 +88,28 @@ export const PROJECTS = [
     image: project3,
     description:
       "AI system to identify clickbait headings of posts/videos using numerous supervised and unsupervised AI techniques.",
-    technologies: ["SciKit-Learn", "GeminiAPI", "CNN", "Keras", "TensorFlow", "KNN"],
+    technologies: [
+      "SciKit-Learn",
+      "GeminiAPI",
+      "CNN",
+      "Keras",
+      "TensorFlow",
+      "KNN",
+    ],
   },
   {
     title: "ABMV - Multi Agent System",
     image: project4,
     description:
-    "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "Multi-agent system for showcasing the agent-based modeling and emergent behavior of agents in a complex system.",
+    technologies: ["Java", "JavaFX", "JUnit", "Maven"],
+  },
+  {
+    title: "Badminton Analysis with CV",
+    image: project5,
+    description:
+      "A system to analyze badminton matches, recognizing player tactics and footwork from match video.",
+    technologies: ["YOLOv8", "OpenCV", "PyTorch", "Roboflow"],
   },
   {
     title: "Portfolio Website",

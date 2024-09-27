@@ -1,10 +1,9 @@
 import React from "react";
-import { TiDeviceTablet } from "react-icons/ti";
 
 const ProjectCard = ({project}) => {
   return (
     <div className="rounded-2xl border-2 border-neutral-800 p-2 m-2 w-full flex flex-wrap lg:justify-center lg:w-2/5 bg-stone-600/10 hover:bg-theme-blue hover:cursor-pointer transition-all">
-      <div className="w-full flex justify-center lg:w-1/4 lg:text-right">
+      <div className="w-full flex justify-center lg:w-1/3 lg:text-right">
         <img
           src={project?.image}
           alt={project?.alt}
@@ -13,7 +12,7 @@ const ProjectCard = ({project}) => {
           className="rounded max-h-52 object-cover"
         />
       </div>
-      <div className="w-full max-w-xl lg:w-3/4 py-2 pl-2">
+      <div className="w-full max-w-xl lg:w-2/3 py-2 pl-2">
               <h6 className="mb-2 font-semibold">
                 {project?.title}
               </h6>
